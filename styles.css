@@ -1,0 +1,70 @@
+/* Definindo a fonte global */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #25d366, #128C7E);
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+/* Estilo da caixa principal */
+.container {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo do título */
+h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+/* Estilo do parágrafo */
+p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+/* Estilo do botão flutuante */
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    padding: 15px 25px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+    z-index: 100;
+}
+
+/* Efeitos no botão flutuante */
+.whatsapp-button:hover {
+    background-color: #128C7E;
+    transform: translateY(-5px);
+}
+
+.whatsapp-button:active {
+    background-color: #075E54;
+    transform: translateY(2px);
+}
+
+/* Estilo do ícone dentro do botão */
+.whatsapp-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
